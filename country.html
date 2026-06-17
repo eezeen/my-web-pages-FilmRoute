@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>국가별 영화 여행 - FilmRoute</title>
+  <meta content="나라별 영화 촬영지 가이드" name="description">
+  <meta content="영화 여행, 촬영지, 성지순례, 영화 투어, FilmRoute" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume (BootstrapMade) — Transformed into "FilmRoute"
+  * Original Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <div class="site-logo">
+      <a href="index.html"><span>Film</span><br>Route</a>
+    </div>
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="index.html" class="nav-link"><i class="bx bx-home"></i> <span>홈</span></a></li>
+        <li><a href="about.html" class="nav-link"><i class="bx bx-info-circle"></i> <span>소개</span></a></li>
+        <li><a href="movies.html" class="nav-link"><i class="bx bx-film"></i> <span>영화 목록</span></a></li>
+        <li><a href="country.html" class="nav-link"><i class="bx bx-globe"></i> <span>국가별 여행</span></a></li>
+        <li><a href="routes.html" class="nav-link"><i class="bx bx-map-alt"></i> <span>인기 코스</span></a></li>
+        <li><a href="gallery.html" class="nav-link"><i class="bx bx-image"></i> <span>갤러리</span></a></li>
+        <li><a href="reviews.html" class="nav-link"><i class="bx bx-star"></i> <span>여행 후기</span></a></li>
+        <li><a href="contact.html" class="nav-link"><i class="bx bx-envelope"></i> <span>문의</span></a></li>
+      </ul>
+    </nav>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+            <section class="portfolio hk-section" data-aos="fade-up">
+      <div class="container">
+        <div class="section-title">
+          <h2>국가별 영화 여행</h2>
+          <p>영화가 촬영된 지역을 지도에서 확인하세요. 카드를 클릭하면 지역별 상세 정보를 볼 수 있습니다.</p>
+        </div>
+
+        <!-- 국가 필터 드롭다운 -->
+        <div class="hk-filter-row">
+          <div class="hk-filter">
+            <span class="hk-filter-label">In:</span>
+            <div class="hk-dropdown">
+              <button type="button" class="hk-dd-btn" id="hkDdBtn">
+                <span id="hkDdCurrent">홍콩</span> <i class="bx bx-chevron-down"></i>
+              </button>
+              <ul class="hk-dd-menu" id="hkDdMenu">
+                <li class="hk-dd-item active" data-country="hongkong">홍콩</li>
+                <li class="hk-dd-item disabled" data-country="usa">미국</li>
+                <li class="hk-dd-item disabled" data-country="uk">영국</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row gy-4 hk-wrap">
+          <div class="col-lg-7">
+            <div class="hk-map-box">
+              <svg viewBox="0 0 800 560" class="hk-svg" preserveAspectRatio="xMidYMid meet">
+                <rect x="0" y="0" width="800" height="560" class="hk-sea"></rect>
+                <path d="M0,0 L800,0 L800,130 L640,150 L560,140 L520,175 L470,170 L470,235 L455,265 L420,280 L385,250 L380,180 L300,175 L200,180 L120,165 L40,150 L0,135 Z M330,360 L480,365 L465,405 L385,415 L335,395 Z M150,375 L260,380 L250,420 L165,425 L130,400 Z" class="hk-land"></path>
+              <g class="hk-marker" data-id="tst" transform="translate(425,255)">
+                <circle class="hk-pulse" r="16"></circle>
+                <path class="hk-pin" d="M0,4 C-9,4 -15,-3 -15,-11 C-15,-20 -8,-26 0,-26 C8,-26 15,-20 15,-11 C15,-3 9,4 0,4 Z"></path>
+                <circle class="hk-pin-dot" cx="0" cy="-12" r="5"></circle>
+              </g>
+              <g class="hk-marker" data-id="central" transform="translate(410,385)">
+                <circle class="hk-pulse" r="16"></circle>
+                <path class="hk-pin" d="M0,4 C-9,4 -15,-3 -15,-11 C-15,-20 -8,-26 0,-26 C8,-26 15,-20 15,-11 C15,-3 9,4 0,4 Z"></path>
+                <circle class="hk-pin-dot" cx="0" cy="-12" r="5"></circle>
+              </g>
+              <g class="hk-marker" data-id="mongkok" transform="translate(420,185)">
+                <circle class="hk-pulse" r="16"></circle>
+                <path class="hk-pin" d="M0,4 C-9,4 -15,-3 -15,-11 C-15,-20 -8,-26 0,-26 C8,-26 15,-20 15,-11 C15,-3 9,4 0,4 Z"></path>
+                <circle class="hk-pin-dot" cx="0" cy="-12" r="5"></circle>
+              </g>
+              <g class="hk-marker" data-id="sheung" transform="translate(355,378)">
+                <circle class="hk-pulse" r="16"></circle>
+                <path class="hk-pin" d="M0,4 C-9,4 -15,-3 -15,-11 C-15,-20 -8,-26 0,-26 C8,-26 15,-20 15,-11 C15,-3 9,4 0,4 Z"></path>
+                <circle class="hk-pin-dot" cx="0" cy="-12" r="5"></circle>
+              </g>
+              </svg>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hk-list">
+            <a href="region-tsimshatsui.html" class="hk-card" data-id="tst">
+              <div class="hk-card-body">
+                <div class="hk-card-head">
+                  <h4>침사추이</h4>
+                  <span class="hk-viewmap"><i class="bi bi-geo-alt-fill"></i> 지도에서 보기</span>
+                </div>
+                <p class="hk-movie">중경삼림</p>
+                <p class="hk-desc">구룡반도 남단, 청킹맨션의 무대</p>
+                <span class="hk-more">자세히 보기 <i class="bx bx-right-arrow-alt"></i></span>
+              </div>
+            </a>
+            <a href="region-central.html" class="hk-card" data-id="central">
+              <div class="hk-card-body">
+                <div class="hk-card-head">
+                  <h4>센트럴·미드레벨</h4>
+                  <span class="hk-viewmap"><i class="bi bi-geo-alt-fill"></i> 지도에서 보기</span>
+                </div>
+                <p class="hk-movie">중경삼림 · 화양연화</p>
+                <p class="hk-desc">홍콩섬 중심, 미드레벨 에스컬레이터</p>
+                <span class="hk-more">자세히 보기 <i class="bx bx-right-arrow-alt"></i></span>
+              </div>
+            </a>
+            <a href="region-mongkok.html" class="hk-card" data-id="mongkok">
+              <div class="hk-card-body">
+                <div class="hk-card-head">
+                  <h4>몽콕</h4>
+                  <span class="hk-viewmap"><i class="bi bi-geo-alt-fill"></i> 지도에서 보기</span>
+                </div>
+                <p class="hk-movie">아비정전</p>
+                <p class="hk-desc">구룡반도 번화가, 네온사인 골목</p>
+                <span class="hk-more">자세히 보기 <i class="bx bx-right-arrow-alt"></i></span>
+              </div>
+            </a>
+            <a href="region-sheungwan.html" class="hk-card" data-id="sheung">
+              <div class="hk-card-body">
+                <div class="hk-card-head">
+                  <h4>셩완</h4>
+                  <span class="hk-viewmap"><i class="bi bi-geo-alt-fill"></i> 지도에서 보기</span>
+                </div>
+                <p class="hk-movie">화양연화</p>
+                <p class="hk-desc">홍콩섬 서쪽, 옛 정취의 거리</p>
+                <span class="hk-more">자세히 보기 <i class="bx bx-right-arrow-alt"></i></span>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>FilmRoute</h3>
+      <p>영화 속 그 장면, 실제로 떠나는 여행. 영화로 발견하는 새로운 여행지.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>FilmRoute</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Based on the MyResume template by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/typed.js/typed.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Hong Kong Map Interaction (FilmRoute custom) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var cards = document.querySelectorAll('.hk-card');
+      var markers = document.querySelectorAll('.hk-marker');
+
+      function clearActive() {
+        cards.forEach(function (c) { c.classList.remove('active'); });
+        markers.forEach(function (m) { m.classList.remove('active'); });
+      }
+      function activate(id) {
+        clearActive();
+        var card = document.querySelector('.hk-card[data-id="' + id + '"]');
+        var marker = document.querySelector('.hk-marker[data-id="' + id + '"]');
+        if (card) card.classList.add('active');
+        if (marker) marker.classList.add('active');
+      }
+
+      cards.forEach(function (card) {
+        var id = card.getAttribute('data-id');
+        card.addEventListener('mouseenter', function () { activate(id); });
+      });
+      markers.forEach(function (marker) {
+        var id = marker.getAttribute('data-id');
+        marker.addEventListener('mouseenter', function () { activate(id); });
+        marker.addEventListener('click', function () {
+          var card = document.querySelector('.hk-card[data-id="' + id + '"]');
+          if (card) window.location.href = card.getAttribute('href');
+        });
+      });
+
+      // 국가 필터 드롭다운
+      var ddBtn = document.getElementById('hkDdBtn');
+      var ddMenu = document.getElementById('hkDdMenu');
+      var ddCurrent = document.getElementById('hkDdCurrent');
+      if (ddBtn) {
+        ddBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          ddMenu.classList.toggle('open');
+        });
+        document.querySelectorAll('.hk-dd-item').forEach(function (item) {
+          item.addEventListener('click', function () {
+            if (item.classList.contains('disabled')) return; // 미국/영국은 표시만
+            document.querySelectorAll('.hk-dd-item').forEach(function (i) { i.classList.remove('active'); });
+            item.classList.add('active');
+            ddCurrent.textContent = item.textContent;
+            ddMenu.classList.remove('open');
+          });
+        });
+        document.addEventListener('click', function () { ddMenu.classList.remove('open'); });
+      }
+    });
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
